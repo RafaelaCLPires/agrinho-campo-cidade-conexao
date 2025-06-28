@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Azul claro */
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-top: 20px; /* Espaço do topo */
+}
+
+main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+canvas {
+    display: block; /* Remove margem extra abaixo do canvas */
+    border: 2px solid #6a0dad; /* Borda roxa para o canvas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #6a0dad; /* Roxo */
+    margin-bottom: 10px;
+}
+
+#game-info {
+    margin-top: 20px;
+    background-color: #e0ffff; /* Ciano claro */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#instructions {
+    font-style: italic;
+    color: #555;
+}
+/* Estilo para o botão de reiniciar criado pelo P5.js */
+.game-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #45a049; /* Verde mais escuro no hover */
+}
